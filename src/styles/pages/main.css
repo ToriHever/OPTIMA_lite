@@ -265,7 +265,7 @@
 
 }
 .advantages_content_blocks{
-    max-width: 280px;
+    max-width: 230px;
 
     display: flex;
     flex-direction: column;
@@ -274,7 +274,7 @@
     justify-content: center;
     text-align: center;
 
-    margin: 0 42px;
+    margin: 0 calc(10px + 32 * (50vw / 1980));
 }
 .advantages_content_blocks_img, .advantages_content_blocks_title, .advantages_content_blocks_subtitle{
     margin: 15px 0;
