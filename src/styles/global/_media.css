@@ -62,3 +62,9 @@
 }
 
 }
+
+@media (max-width: 880px){
+    .button-request{
+        display: none;
+    }
+}
