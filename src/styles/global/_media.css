@@ -31,11 +31,18 @@
 
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1400px) {
     .adress, .schedule{
         display: none !important;
     }
-}
+
+    .services_colum:last-child .services_colum_elem_wrap{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    }
+ }
 
 @media (max-width: 1570px) {
 
