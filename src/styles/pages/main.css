@@ -253,7 +253,15 @@
     align-content: center;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 60px 0;
+
+}
+.advantages_content_warp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 .advantages_content_blocks{

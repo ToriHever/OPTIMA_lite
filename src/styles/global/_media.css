@@ -68,3 +68,10 @@
         display: none;
     }
 }
+
+@media (max-width: 745px){
+    .advantages_content_blocks{
+        max-width: 230px;
+        margin: 0 10px;
+    }
+}
