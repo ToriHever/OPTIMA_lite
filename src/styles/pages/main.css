@@ -233,7 +233,7 @@
 }
 .form_problem_txt{
     max-width: 774px;
-    margin-right: 15px;
+    margin: 0 15px 0 0;
 }
 .form_problem_content{
     display: flex;

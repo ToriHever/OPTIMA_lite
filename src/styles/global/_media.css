@@ -74,4 +74,14 @@
         max-width: 230px;
         margin: 0 10px;
     }
+
+    .form_problem_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_problem_txt{
+        margin: 0 0 25px 0;
+    }
 }
