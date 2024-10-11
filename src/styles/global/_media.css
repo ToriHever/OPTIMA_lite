@@ -31,4 +31,27 @@
 
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 1320px) {
+    .adress, .schedule{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1570px) {
+
+    .tell{
+        display: none;
+    }
+
+    .schedule_elem-tell{
+        display: block !important;
+    }
+}
+
+@media (min-width: 1670px) {
+    .nav-menu{
+    margin: 0 65px !important;
+
+}
+
+}

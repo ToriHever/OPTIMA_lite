@@ -30,15 +30,21 @@ header {
 }
 
 .contacts-header{
-    align-items: flex-start;
+
+    padding: 0 20px;
 }
 
+.schedule_elem-tell{
+    display: none;
+    opacity: .6;
+    font-size: 11pt;
+}
 
 
 /*____Меню____________________________________________________________________*/
 
 .nav-menu{
-    margin: 0 65px;
+    margin: 0 20px;
     min-width: 360px;
 }
 
