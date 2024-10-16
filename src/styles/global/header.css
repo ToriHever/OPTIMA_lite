@@ -27,6 +27,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 
 .contacts-header{
@@ -74,7 +75,7 @@ header {
 .contacts-header a{
     margin: 0 30px;
 }
-.adress, .schedule, .tell{
+.adress-header, .schedule-header, .tell-header {
     position: relative;
     min-width: 160px;
     margin: 0 30px;
@@ -85,7 +86,12 @@ header {
     margin: 0;
 
 }
-
+.footer-map{
+    min-width: 300px;
+}
+.footer-map div{
+    object-fit: cover;
+}
 /*_____________________________________________________________________________*/
 /*____Позвонить____________________________________________________________________*/
 
