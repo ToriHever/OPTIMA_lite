@@ -234,6 +234,7 @@
 .form_problem_txt{
     max-width: 774px;
     margin: 0 15px 0 0;
+
 }
 .form_problem_content{
     display: flex;
@@ -319,7 +320,8 @@
 }
 .form_request_content_txt{
     max-width: 480px;
-    padding: 35px 0 35px 35px;
+    padding: 35px;
+    background-color: rgba(245, 245, 245, 1);
 }
 
 .form_request_content_list{
