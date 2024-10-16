@@ -35,6 +35,9 @@
     .adress, .schedule{
         display: none !important;
     }
+    .services_colum{
+        margin: 0 10px;
+    }
 
     .services_colum:last-child .services_colum_elem_wrap{
         display: flex;
@@ -42,7 +45,13 @@
     justify-content: center;
 
     }
+
  }
+@media (min-width: 1400px) {
+.services_colum:last-child .price_title{
+        text-align: center;
+    }
+}
 
 @media (max-width: 1570px) {
 
