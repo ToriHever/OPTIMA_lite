@@ -4,6 +4,7 @@
 @import "../global/_buttons.css";
 @import "../global/_zeroing.css";
 @import "../global/_animations-pseudo.css";
+@import "../global/burger.css";
 
 
 
@@ -44,7 +45,7 @@ header {
 /*____Меню____________________________________________________________________*/
 
 .nav-menu{
-    margin: 0 20px;
+    margin: 0 20px 0 40px;
     min-width: 360px;
 }
 
@@ -55,12 +56,12 @@ header {
     width: 100%;
 }
 
+
 /*_____________________________________________________________________________*/
 /*____Логотип____________________________________________________________________*/
 
 .logo {
     width: calc(130px + 50 * (100vw / 1920));
-    margin-right: 20px;
     padding: 0 10px;
 }
 

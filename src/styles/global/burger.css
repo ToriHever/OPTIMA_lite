@@ -1,0 +1,94 @@
+@import "../global/_animations-pseudo.css";
+
+.menu-burger{
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 99;
+}
+.burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+.burger {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 26px;
+  margin: 15px;
+}
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: #fff;
+}
+.burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #fff;
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+.burger::after {
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
+}
+.burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0);
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+.burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
+}
+
+
+.menu-burger-wrapper{
+
+/*
+    visibility: visible;
+    left: 0px;
+*/
+
+    visibility: hidden;
+    left: -600px;
+
+    position: absolute;
+    top: 0;
+    width: 60%;
+    height: 100vh;
+    padding: 80px 10px 20px 10px;
+    background-color: #00444D;
+
+    display: flex;
+    flex-direction: column;
+
+    -webkit-box-shadow: 7px 4px 30px -3px rgba(0, 68, 75, 1);
+    -moz-box-shadow: 7px 4px 30px -3px rgba(0, 68, 75, 1);
+    box-shadow: 7px 4px 30px -3px rgba(0, 68, 75, 1);
+}
+
+.menu-burger-wrapper .nav-menu_elem{
+    margin: 5px 0 10px 10px;
+}
+
+.adress-burger{
+    opacity: .8;
+    margin: 0 0 20px 20px;
+}
+
+.burger-contacts {
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}

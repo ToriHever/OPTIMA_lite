@@ -1,3 +1,4 @@
+
 @media (max-width: 1210px) {
 
     .preview_inner {
@@ -77,6 +78,19 @@
 }
 
 @media (max-width: 745px){
+    .menu-burger{
+        display: block !important;
+    }
+    .container-header{
+        display: flex;
+        justify-content: flex-end !important;
+        padding: 0 !important;
+    }
+    .navigation-header{
+        display: flex;
+        flex-direction: row-reverse !important;
+    }
+
     .nav-menu{
         display: none;
     }
