@@ -1,9 +1,5 @@
 @media (max-width: 1210px) {
 
-    .preview_background {
-        height: 100%;
-    }
-
     .preview_inner {
         max-width: 900px;
     }
