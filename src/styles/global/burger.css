@@ -20,6 +20,13 @@
   height: 26px;
   margin: 15px;
 }
+.active {
+    visibility: visible !important;
+    left: 0px !important;
+    transition: .3s;
+
+}
+
 .burger::before,
 .burger::after {
   content: '';
@@ -52,19 +59,18 @@
   transition: bottom .3s, transform .3s .15s;
 }
 
-
 .menu-burger-wrapper{
-
-/*
-    visibility: visible;
-    left: 0px;
-*/
-
+    position: relative;
+    left: 0;
+    width: 100%;
     visibility: hidden;
     left: -600px;
-
+    transition: .3s;
+}
+.menu-burger-wrapper_content{
     position: absolute;
     top: 0;
+    left: 0;
     width: 60%;
     height: 100vh;
     padding: 80px 10px 20px 10px;
