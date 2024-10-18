@@ -1,3 +1,71 @@
+@media (max-width: 745px) {
+    .menu-burger {
+        display: block !important;
+    }
+
+    .container-header {
+        display: flex;
+        justify-content: flex-end !important;
+        padding: 0 !important;
+    }
+
+    .navigation-header {
+        display: flex;
+        flex-direction: row-reverse !important;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .advantages_content_blocks {
+        margin: 0 10px;
+    }
+
+    .form_problem_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_problem_txt {
+        margin: 0 0 25px 0;
+    }
+
+    .footer_content {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+
+    .footer-map {
+        width: 380px;
+    }
+}
+
+@media (max-width: 880px) {
+    .button-request-header {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1085px) {
+    .advantages_content_blocks {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 1248px) {
+    .preview_blocks_elem {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .preview_content {
+        padding: 150px 0;
+    }
+
+}
 
 @media (max-width: 1210px) {
 
@@ -15,111 +83,47 @@
     }
 }
 
+@media (max-width: 1400px) {
 
-@media (min-width: 1248px) {
-    .preview_blocks_elem {
-        padding-right: 40px;
-        padding-left: 40px;
+    .adress-header,
+    .schedule-header {
+        display: none !important;
     }
 
-    .preview_content {
-        padding: 150px 0;
+    .services_colum {
+        margin: 0 10px;
+    }
+
+    .services_colum:last-child .services_colum_elem_wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
     }
 
 }
 
-@media (max-width: 1400px) {
-    .adress-header, .schedule-header{
-        display: none !important;
-    }
-    .services_colum{
-        margin: 0 10px;
-    }
-
-    .services_colum:last-child .services_colum_elem_wrap{
-        display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    }
-
- }
 @media (min-width: 1400px) {
-.services_colum:last-child .price_title{
+    .services_colum:last-child .price_title {
         text-align: center;
     }
 }
 
 @media (max-width: 1570px) {
 
-    .tell-header{
+    .tell-header {
         display: none;
     }
 
-    .schedule_elem-tell{
+    .schedule_elem-tell {
         display: block !important;
     }
 }
 
 @media (min-width: 1670px) {
-    .nav-menu{
-    margin: 0 65px !important;
+    .nav-menu {
+        margin: 0 65px !important;
 
-}
-
-}
-
-
-@media (max-width: 880px){
-    .button-request-header{
-        display: none;
     }
 
-}
-
-@media (max-width: 745px){
-    .menu-burger{
-        display: block !important;
-    }
-    .container-header{
-        display: flex;
-        justify-content: flex-end !important;
-        padding: 0 !important;
-    }
-    .navigation-header{
-        display: flex;
-        flex-direction: row-reverse !important;
-    }
-
-    .nav-menu{
-        display: none;
-    }
-    .advantages_content_blocks{
-        margin: 0 10px;
-    }
-
-    .form_problem_content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .form_problem_txt{
-        margin: 0 0 25px 0;
-    }
-
-    .footer_content{
-        display: flex ;
-        flex-direction: column-reverse!important;
-    }
-
-    .footer-map {
-        width: 380px;
-    }
-}
-
-@media (max-width: 1085px){
-    .advantages_content_blocks{
-          max-width: 300px;
-    }
 }
