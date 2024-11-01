@@ -65,8 +65,7 @@
 .burger-link-pagers {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-}
+ }
 
 .menu-burger-inner_content {
     display: flex;
@@ -83,4 +82,5 @@
 
 .adress-burger {
     opacity: .8;
+    margin-bottom: 20px;
 }
