@@ -1,4 +1,38 @@
+a:hover{
+    opacity: .8;
+    text-decoration: underline;
+}
 
+a:active{
+    opacity: .6;
+}
+
+/*Анмация для ссылок главного меню*/
+.nav-menu a::before{
+    position: absolute;
+    content:'';
+    bottom: 6px;
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    opacity: 9;
+    background-color: #fff;
+    border-radius: 20px;
+    transform: scale(0) translateX(70px);
+     transition: .2s;
+
+
+}
+
+.nav-menu a:hover::before{
+    transform: scale(1) translateX(0);
+    transition: .2s;
+}
+.nav-menu a:active::before{
+    opacity: .7;
+    transform: scale(0.8);
+    transition: .2s;
+}
 
 /*____Псевдо элменты____________________________________________________________________*/
 
