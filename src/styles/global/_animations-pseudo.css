@@ -1,6 +1,5 @@
 a:hover{
     opacity: .8;
-    text-decoration: underline;
 }
 
 a:active{
@@ -19,7 +18,7 @@ a:active{
     background-color: #fff;
     border-radius: 20px;
     transform: scale(0) translateX(70px);
-     transition: .2s;
+    transition: .2s;
 
 
 }
@@ -28,6 +27,10 @@ a:active{
     transform: scale(1) translateX(0);
     transition: .2s;
 }
+.nav-menu a:hover{
+     text-decoration: none;
+}
+
 .nav-menu a:active::before{
     opacity: .7;
     transform: scale(0.8);
@@ -43,6 +46,12 @@ button:hover{
     transition: .3s;
 
     transform: translateY(-3px);
+}
+
+button:active{
+    transform: translateY(-0px);
+    background-color: #28595f;
+    transition: .3s;
 }
 
 /*______________________________________________________________________________________*/
