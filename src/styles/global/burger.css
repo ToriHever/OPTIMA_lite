@@ -1,25 +1,28 @@
 @import "../global/_animations-pseudo.css";
 
-.menu-burger{
+.menu-burger {
     display: none;
     position: absolute;
     left: 0;
     z-index: 99;
 }
+
 .burger-checkbox {
-  position: absolute;
-  visibility: hidden;
+    position: absolute;
+    visibility: hidden;
 }
+
 .burger {
-  cursor: pointer;
-  display: block;
-  position: relative;
-  border: none;
-  background: transparent;
-  width: 40px;
-  height: 26px;
-  margin: 15px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 40px;
+    height: 26px;
+    margin: 15px;
 }
+
 .active {
     visibility: visible !important;
     left: 0px !important;
@@ -27,7 +30,7 @@
 
 }
 
-.menu-burger-wrapper{
+.menu-burger-wrapper {
     display: none;
     position: relative;
     left: 0;
@@ -36,41 +39,48 @@
     left: -600px;
     transition: .3s;
 }
-.menu-burger-wrapper_content{
+
+.menu-burger-wrapper_content {
     position: absolute;
     top: -41px;
     left: 0;
     width: 100%;
     min-width: 300px;
+    height: 100vh;
     background-color: #00444D;
     -webkit-box-shadow: 7px 4px 30px -3px rgba(0, 68, 75, 1);
     -moz-box-shadow: 7px 4px 30px -3px rgba(0, 68, 75, 1);
     box-shadow: 7px 4px 30px -3px rgba(0, 68, 75, 1);
 }
-.burger-start-elem{
+
+.burger-start-elem {
     margin: 55px 0;
 }
-.burger-start-elem, .burger-contacts {
+
+.burger-start-elem,
+.burger-contacts {
     padding: 27px;
 }
-.burger-link-pagers{
+
+.burger-link-pagers {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
 }
-.menu-burger-inner_content{
+
+.menu-burger-inner_content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow-y: auto;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
-.menu-burger-wrapper .nav-menu_elem{
+.menu-burger-wrapper .nav-menu_elem {
     margin: 5px 0 10px 0px;
 }
 
-.adress-burger{
+.adress-burger {
     opacity: .8;
 }
