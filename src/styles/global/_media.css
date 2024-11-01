@@ -2,6 +2,9 @@
     .menu-burger {
         display: block !important;
     }
+    .menu-burger-wrapper {
+        display: block !important;
+    }
 
     .container-header {
         display: flex;
